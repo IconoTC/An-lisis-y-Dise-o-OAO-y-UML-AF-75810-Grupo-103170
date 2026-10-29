@@ -1,0 +1,20 @@
+
+
+if(f is Triangulo) {
+    Triangulo t = (Triangulo)f
+    t...
+    :
+}
+
+if(f is Triangulo t) {
+    t...
+    :
+}
+
+if(cad != null && cad.equals("fin")) {
+
+}
+
+if("fin".equals(cad)) {
+
+}
