@@ -4,7 +4,7 @@
 
 ### Atributos
 
-    - tablero
+    - tablero: Tablero
     - turno: Color
     - partida: Estado
 
@@ -30,7 +30,8 @@
 
     + ctor(color: Color)
     + dameColor(): Color
-    + muévete(Movimiento, Tablero)
+    # ponColor(color: Color)
+    + mover(Movimiento, Tablero)
     # <<abtract>> esValido(Movimiento, Tablero): booleano
 
 ## Rey -> Pieza
@@ -68,16 +69,16 @@
 ### Métodos
 
     # <<override>> esValido(Movimiento, Tablero): booleano
-    + <<override>> muévete(Movimiento, Tablero)
+    + <<override>> mover(Movimiento, Tablero)
     - enPosiciónInicial(Movimiento): booleano
     - avanza(Movimiento): booleano
     - puedeComer(Movimiento): booleano
 
 ### Eventos
 
-    Promoción()
+    NecesitoPromoción(PromocionArgs)
 
-## Color (Turno)
+## Color (Turno) \<\<enum>>
 
 - Blanco
 - Negro
@@ -100,6 +101,7 @@
     + mover(Movimiento)
     + mover(inicial: Posición, final: Posición)
     + clonar(): Tablero
+    + <<clase>> dameColorEscaque(Posición): Color
 
 ## Escaque (cuadrado)
 
@@ -110,6 +112,7 @@
 ### Métodos
 
     + ponPieza(Posición, Pieza)
+    + damePieza(Posición): Pieza
     + quitaPieza(Posición)
 
 ## Posición
@@ -156,10 +159,25 @@
 - Tablas
 - Cancelada
 
+## JuegoException
+
+### Atributos
+
+    - mensaje: cadena
+  
+### Métodos
+
+    + ctor(cadena)
+    + dameMensaje(): cadena
+
+## Descartes
+
 Tiempo
 
 Enroque
+
 Promoción
+
 Jaque
 
 
