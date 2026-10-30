@@ -1,0 +1,66 @@
+<mxfile host="65bd71144e">
+    <diagram id="eOlSIfdN8BERBjmh780J" name="Página-1">
+        <mxGraphModel dx="1037" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-2" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" value="Core" vertex="1">
+                    <mxGeometry height="170" width="150" x="700" y="274" as="geometry"/>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-3" parent="KtZpf4RQkJ1SkqiEZsQ5-2" style="html=1;whiteSpace=wrap;align=left;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;Tablero&lt;/span&gt;&lt;/div&gt;&lt;div&gt;Pieza&lt;/div&gt;&lt;div&gt;Posicion&lt;/div&gt;&lt;div&gt;Moviento&lt;/div&gt;&lt;div&gt;Color&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="100" relative="1" width="110" as="geometry">
+                        <mxPoint x="20" y="50" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-4" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" value="Ajedrez" vertex="1">
+                    <mxGeometry height="170" width="150" x="420" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-5" parent="KtZpf4RQkJ1SkqiEZsQ5-4" style="html=1;whiteSpace=wrap;align=left;" value="&lt;div style=&quot;&quot;&gt;JuegoImpl&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Rey&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Dama&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Alfil&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Caballo&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Torre&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Estado&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="100" relative="1" width="110" as="geometry">
+                        <mxPoint x="20" y="50" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-19" edge="1" parent="1" source="KtZpf4RQkJ1SkqiEZsQ5-6" style="edgeStyle=none;html=1;" target="KtZpf4RQkJ1SkqiEZsQ5-14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-6" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" value="Contratos" vertex="1">
+                    <mxGeometry height="110" width="150" x="423" y="304" as="geometry"/>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-7" parent="KtZpf4RQkJ1SkqiEZsQ5-6" style="html=1;whiteSpace=wrap;align=left;" value="&lt;div style=&quot;&quot;&gt;Juego&lt;/div&gt;&lt;div style=&quot;&quot;&gt;JuegoException&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="40" relative="1" width="110" as="geometry">
+                        <mxPoint x="20" y="50" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-8" parent="1" style="shape=folder;fontStyle=1;tabWidth=80;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;whiteSpace=wrap;" value="AppWeb" vertex="1">
+                    <mxGeometry height="80" width="150" x="60" y="194" as="geometry"/>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-9" edge="1" parent="1" source="KtZpf4RQkJ1SkqiEZsQ5-2" style="edgeStyle=none;html=1;entryX=1.005;entryY=0.529;entryDx=0;entryDy=0;entryPerimeter=0;" target="KtZpf4RQkJ1SkqiEZsQ5-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-10" edge="1" parent="1" source="KtZpf4RQkJ1SkqiEZsQ5-6" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="KtZpf4RQkJ1SkqiEZsQ5-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-11" edge="1" parent="1" source="KtZpf4RQkJ1SkqiEZsQ5-6" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=150;entryDy=67.5;entryPerimeter=0;" target="KtZpf4RQkJ1SkqiEZsQ5-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-13" edge="1" parent="1" source="KtZpf4RQkJ1SkqiEZsQ5-4" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=150;entryDy=42.5;entryPerimeter=0;" target="KtZpf4RQkJ1SkqiEZsQ5-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-14" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" value="Damas" vertex="1">
+                    <mxGeometry height="110" width="150" x="423" y="460" as="geometry"/>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-15" parent="KtZpf4RQkJ1SkqiEZsQ5-14" style="html=1;whiteSpace=wrap;align=left;" value="&lt;div style=&quot;&quot;&gt;JuegoImpl&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;Dama&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;color: rgb(63, 63, 63); background-color: transparent;&quot;&gt;Estado&lt;/span&gt;&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="50" relative="1" width="110" as="geometry">
+                        <mxPoint x="20" y="50" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-18" edge="1" parent="1" source="KtZpf4RQkJ1SkqiEZsQ5-2" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=150;entryDy=70;entryPerimeter=0;" target="KtZpf4RQkJ1SkqiEZsQ5-14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="KtZpf4RQkJ1SkqiEZsQ5-20" edge="1" parent="1" source="KtZpf4RQkJ1SkqiEZsQ5-14" style="edgeStyle=none;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="KtZpf4RQkJ1SkqiEZsQ5-8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
